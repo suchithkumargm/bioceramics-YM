@@ -1,0 +1,55 @@
+.header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: var(--pink-color);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.brand {
+    margin-left: 2rem;
+    color: var(--black-color);
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navigation-items {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.navigation-items li {
+    list-style: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+
+    color: var(--black-color);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navigation-items .buy-now{
+    padding: 0.5rem 1rem;
+}
+
+section{
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+#products .card-container{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	gap: 1rem;
+    place-items: center;
+}
