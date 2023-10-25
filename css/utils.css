@@ -33,3 +33,11 @@ a{
     border: none;
     border-radius: 15px;
 }
+
+.content h1.title {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }  

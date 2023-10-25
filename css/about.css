@@ -1,0 +1,62 @@
+.story-container {
+    display: flex;
+    align-items: center;
+}
+
+.story-container p {
+    margin-left: 5.8rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    letter-spacing: 1.12px;
+}
+
+.story-1 img {
+    margin-right: 5.18rem;
+    float: right;
+}
+
+.story-2 img {
+    margin-left: 3rem;
+    float: left;
+}
+
+.story-2 p {
+    margin-right: 2rem;
+}
+
+.story-3 img {
+    margin-right: 5.18rem;
+    float: right;
+}
+
+
+.benifits {
+    display: flex;
+    justify-content: center;
+}
+
+.benifits .card {
+    margin: 3.5rem 1.5rem;
+    background-color: #D9D9D9;;
+}
+
+.gallery h1.title{
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.gallery-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+    place-items: center;
+}
+
+
+.gallery-cards img {
+    width: 285px;
+    height: 176px;
+}

@@ -1,16 +1,19 @@
-.content h1.title {
-  font-size: 2.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-align: center;
+#products .card-container{
+  display: grid;
+grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+gap: 1rem;
+  place-items: center;
+}
+
+.card-container{
+  padding: 2rem;
 }
 
 .card {
   border: 1px solid #eaeaea;
   border-radius: 20px;
-  width: 85%;
-  height: 17rem;
+  width: 230px;
+  height: 300px;
   background-color: var(--white-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
@@ -24,8 +27,7 @@
 .card img {
   width: 3rem;
   display: block;
-  margin: 0 auto;
-  padding: 1.5rem;
+  margin: 55px auto 0 auto;
 }
 
 .card-content {
@@ -37,9 +39,10 @@
 }
 
 h1,p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.3rem;
 }
 
 .price{
+  font-size: 1.5rem;
   font-weight: 700;
 }

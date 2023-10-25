@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+#home .content {
+    margin: 5rem 0;
+    display: flex;
+}
+
+#home .left-container {
+    width: 50%;
+    margin: auto 10rem;
+}
+
+#home .left-container img{
+    width: 6.875rem;
+    height: 4rem;
+    position: absolute;
+    left: 25rem;
+    top: 6.5rem;
+}
+
+#home .right-container {
+    width: 50%;
+}
+
+#home .right-container img {
+    width: 37.25rem;
+    height: 26.18rem;
+}
+
+#home .left-container h1 {
+    text-transform: uppercase;
+    color: #5E8BFF;
+    font-family: 'Inter', Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#home .left-container h2 {
+    font-family: 'Inter', Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#home .left-container h3 {
+    font-family: 'Inter', Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.buy-now {
+    font-family: 'Inter', Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+}
