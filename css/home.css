@@ -31,7 +31,7 @@
     text-transform: uppercase;
     color: #5E8BFF;
     font-family: 'Inter', Roboto;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -39,7 +39,7 @@
 
 #home .left-container h2 {
     font-family: 'Inter', Roboto;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -47,7 +47,7 @@
 
 #home .left-container h3 {
     font-family: 'Inter', Roboto;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -55,7 +55,7 @@
 
 .buy-now {
     font-family: 'Inter', Roboto;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
