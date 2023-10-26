@@ -39,13 +39,8 @@
 }
 
 .benifits .card {
-    margin: 3.5rem 1.5rem;
-    background-color: #D9D9D9;;
-}
-
-.gallery h1.title{
-    text-align: left;
-    margin-left: 3rem;
+    margin: 0 3rem 3rem;
+    background-color: #D9D9D9;
 }
 
 .gallery-cards {
@@ -55,7 +50,7 @@
     place-items: center;
 }
 
-.gallery-cards{
+.gallery-cards {
     margin: auto 0.5rem;
 }
 
