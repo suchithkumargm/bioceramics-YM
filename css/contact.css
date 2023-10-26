@@ -27,6 +27,11 @@
 
 iframe {
     border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+iframe:hover{
+    transform: scale(1.02);
 }
 
 .lower-container {
@@ -36,6 +41,11 @@ iframe {
     display: flex;
     justify-content: space-around;
     padding-top: 5.25rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9rem;
 }
 
 .social-links{
@@ -48,6 +58,11 @@ iframe {
     height: 2rem;
     margin: auto 1rem;
     cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover{
+    transform: scale(1.2);
 }
 
 .contact-title {
@@ -55,20 +70,5 @@ iframe {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-li {
-    list-style: none;
-    margin: 1rem 0;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.address p {
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.9rem;
+    margin-bottom: 1rem;
 }

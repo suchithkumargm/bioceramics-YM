@@ -39,6 +39,8 @@
 }
 
 .benifits .card {
+    width: 18rem;
+    height: 23rem;
     margin: 0 3rem 3rem;
     background-color: #D9D9D9;
 }
@@ -54,7 +56,11 @@
     margin: auto 0.5rem;
 }
 
-.gallery-cards img {
-    width: 17.8rem;
-    height: 11rem;
+.gallery-cards img{
+    transition: transform 0.3s;
+}
+
+.gallery-cards img:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }

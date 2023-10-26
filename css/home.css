@@ -5,7 +5,7 @@
 
 #home .left-container {
     position: relative;
-    width: 50%;
+    flex-basis: 50%;
     margin: auto 10rem;
     font-family: 'Inter', Roboto;
     line-height: normal;
@@ -19,12 +19,7 @@
 }
 
 #home .right-container {
-    width: 50%;
-}
-
-#home .right-container img {
-    width: 37.25rem;
-    height: 26.18rem;
+    flex-basis: 50%;
 }
 
 #home .left-container h1 {

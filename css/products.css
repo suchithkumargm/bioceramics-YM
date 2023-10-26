@@ -1,19 +1,18 @@
-#products .card-container{
+#products .card-container {
   display: grid;
-grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
   place-items: center;
 }
 
-.card-container{
+.card-container {
   padding: 0 2rem;
 }
 
 .card {
   border: 1px solid #eaeaea;
   border-radius: 20px;
-  width: 14.375rem;
-  height: 18.75rem;
+  width: 90%;
   background-color: var(--white-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
@@ -38,11 +37,12 @@ gap: 1rem;
   align-items: center;
 }
 
-.card-content h1,p {
+.card-content h1,
+p {
   margin-bottom: 1.3rem;
 }
 
-.price{
+.price {
   font-size: 1.5rem;
   font-weight: 700;
 }
