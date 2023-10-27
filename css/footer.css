@@ -36,14 +36,14 @@ footer .lower-container {
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 620px) {
     .social-links{
         justify-content: center;
+        order: 3;
     }
 
     footer .lower-container {
-        display: block;
-        height: auto;
+        flex-direction: column;
         text-align: center;
     }
 

@@ -67,7 +67,7 @@
     transform: scale(1.02);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 620px) {
     .story-container {
         display: block;
         text-align: center;
