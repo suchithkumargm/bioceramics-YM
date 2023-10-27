@@ -25,6 +25,7 @@
 
 .story-2 p {
     margin-right: 2rem;
+    order: 2;
 }
 
 .story-3 img {
@@ -34,8 +35,9 @@
 
 
 .benifits {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin:auto 5rem;
 }
 
 .benifits .card {
@@ -63,4 +65,31 @@
 .gallery-cards img:hover{
     cursor: pointer;
     transform: scale(1.02);
+}
+
+@media screen and (max-width: 450px) {
+    .story-container {
+        display: block;
+        text-align: center;
+    }
+
+    .story-container img{
+        margin: 0;
+        float: none;
+        width: 85%;
+    }
+
+    .story-container p{
+        margin: 0;
+        padding: 0 2rem;
+        text-align: justify;
+    }
+
+    .benifits{
+        margin: 0;
+    }
+
+    .benifits .card{
+        margin: 1rem auto;
+    }
 }

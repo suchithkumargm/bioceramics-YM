@@ -1,4 +1,4 @@
-.lower-container {
+footer .lower-container {
     background-image: url('../images/contact.png');
     background-size: cover;
     background-position: center;
@@ -11,7 +11,7 @@
     line-height: 1.9rem;
 }
 
-.social-links{
+.social-links {
     display: flex;
     align-items: center;
 }
@@ -24,7 +24,7 @@
     transition: transform 0.3s;
 }
 
-.social-links img:hover{
+.social-links img:hover {
     transform: scale(1.2);
 }
 
@@ -34,4 +34,23 @@
     font-weight: 700;
     line-height: normal;
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+    footer {
+        height: 700px;
+    }
+
+    footer .lower-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-links,
+    .products,
+    .help,
+    .address{
+        padding: 1rem;
+    }
 }

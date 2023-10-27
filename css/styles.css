@@ -37,12 +37,18 @@
     line-height: normal;
 }
 
-.navigation-items .buy-now{
+.navigation-items .buy-now {
     padding: 0.5rem 1rem;
 }
 
-section{
+section {
     height: auto;
     display: inline-block;
     width: 100%;
 }
+
+/* @media screen and (max-width: 450px) {
+    .header{
+        display: block;
+    }
+} */

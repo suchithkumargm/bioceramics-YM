@@ -33,3 +33,27 @@ iframe {
 iframe:hover{
     transform: scale(1.02);
 }
+
+@media screen and (max-width: 450px) {
+    .contact-container{
+        display: block;
+        margin: 0;
+    }
+
+    .left-contact-items{
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .right-contact{
+        text-align: center;
+    }
+
+    iframe{
+        width: 80%;
+    }
+
+    .left-contact-items p{
+        margin: 0 1rem;   
+    }
+}
