@@ -42,8 +42,6 @@ footer .lower-container {
     }
 
     footer .lower-container {
-        background-size: contain;
-        background-repeat: repeat-x;
         display: block;
         height: auto;
         text-align: center;
