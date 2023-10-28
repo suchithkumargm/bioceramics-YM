@@ -47,7 +47,7 @@
     margin-bottom: 2rem;
 }
 
-.benifits .card {
+.benifits .card { 
     width: 20rem;
     height: 23rem;
     background-color: var(--white-color);
@@ -86,7 +86,7 @@
     z-index: 1001;
 }
 
-.full-img img{
+.full-img img{ 
     width: 30%;
 }
 
