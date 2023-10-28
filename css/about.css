@@ -64,11 +64,39 @@
 .gallery-cards img {
     width: 100%;
     transition: transform 0.3s;
+    border-radius: 10px;
 }
 
 .gallery-cards img:hover {
     cursor: pointer;
     transform: scale(1.03);
+    box-shadow: 0 32px 75px rgba(85, 83, 85, 0.2);
+}
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+}
+
+.full-img img{
+    width: 30%;
+}
+
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 2rem;
+    color: var(--white-color);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
