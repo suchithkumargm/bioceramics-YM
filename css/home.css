@@ -55,10 +55,10 @@
 }
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 800px) {
     #home .left-container img {
         top: -1%;
-        right: 0%;
+        right: 0;
     }
 
     #home .content {

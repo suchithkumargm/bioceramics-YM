@@ -36,7 +36,7 @@ footer .lower-container {
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 800px) {
     .social-links{
         justify-content: center;
         order: 3;

@@ -53,7 +53,7 @@ label {
     font-weight: 700;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 800px) {
     .header {
         display: inline-block;
         padding: 1rem;
@@ -63,6 +63,7 @@ label {
         display: inline;
         position: relative;
         left: 85%;
+        font-size: 2rem;
     }
 
     .brand {
@@ -73,15 +74,12 @@ label {
 
     .navigation-items {
         display: none;
-    }
-
-    .navigation-items {
         margin: 0;
-        padding: 1rem;
+        padding: 1em;
     }
 
     .navigation-items li {
-        padding: 0.5rem;
+        padding: 1em;
     }
 
     #hamburger:checked~.navigation-items {
