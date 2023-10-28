@@ -5,26 +5,8 @@
 }
 
 #home .left-container {
-    padding-top: 3rem;
-    position: relative;
     font-family: 'Inter', Roboto;
     line-height: normal;
-}
-
-#home .left-container img {
-    width: 6.875rem;
-    height: 4rem;
-    position: absolute;
-    top: 0%;
-}
-
-#home .left-container h1 {
-    text-transform: uppercase;
-    color: #5E8BFF;
-    font-size: 3.75rem;
-    font-style: normal;
-    font-weight: 800;
-    margin-bottom: 0;
 }
 
 #home .left-container h2,
@@ -50,13 +32,17 @@
     padding: 0.75rem 1.5rem;
 }
 
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container img{
+    width: 70%;
+}
 
 @media screen and (max-width: 800px) {
-    #home .left-container img {
-        top: -1%;
-        right: 0;
-    }
-
     #home .content {
         display: block;
         margin-bottom: 0;

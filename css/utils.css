@@ -9,13 +9,13 @@ body {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--pink-color);
+    background-image: linear-gradient(to right, #D5DDD6 , #b0d7b4);
 }
 
 :root {
+    --background-color:#D5DDD6;
     --black-color: #000000;
     --white-color: #FFFFFF;
-    --pink-color: #FBF6E9;
 }
 
 a {

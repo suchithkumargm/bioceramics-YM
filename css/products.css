@@ -14,7 +14,7 @@
   border-radius: 20px;
   width: 90%;
   background-color: var(--white-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
 }
 
@@ -24,9 +24,10 @@
 }
 
 .card img {
-  width: 3rem;
+  min-width: 6rem;
   display: block;
-  margin: 3.43rem auto 0 auto;
+  padding-top:2rem;
+  margin: auto;
 }
 
 .card-content {

@@ -7,12 +7,21 @@
 
 .story-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1.2fr 0.8fr;
     align-items: center;
     padding: 2rem;
 }
 
-.story-container img{
+.story-2 {
+    grid-auto-flow: row dense;
+    direction: rtl;
+}
+
+.story-2 p {
+    text-align: left;
+}
+
+.story-container img {
     margin: auto;
 }
 
@@ -22,19 +31,6 @@
     font-weight: 400;
     line-height: 2.5rem;
     letter-spacing: 1.12px;
-}
-
-.story-1,
-.story-3 img {
-    float: right;
-}
-
-.story-2 img {
-    float: left;
-}
-
-.story-2 p {
-    order: 2;
 }
 
 .benifits {
@@ -47,10 +43,24 @@
     margin-bottom: 2rem;
 }
 
-.benifits .card { 
+.benifits .card {
     width: 20rem;
     height: 23rem;
     background-color: var(--white-color);
+}
+
+.benifits .card img {
+    min-width: 3rem;
+}
+
+.benifits .card p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1.12px;
+    text-align: justify;
+    padding: 1.5rem;
 }
 
 .gallery-cards {
@@ -73,7 +83,7 @@
     box-shadow: 0 32px 75px rgba(85, 83, 85, 0.2);
 }
 
-.full-img{
+.full-img {
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.9);
@@ -86,11 +96,11 @@
     z-index: 1001;
 }
 
-.full-img img{ 
+.full-img img {
     width: 30%;
 }
 
-.full-img span{
+.full-img span {
     position: absolute;
     top: 5%;
     right: 5%;
@@ -110,7 +120,7 @@
         width: 85%;
     }
 
-    .story-2 img{
+    .story-2 img {
         order: 2;
     }
 
@@ -119,7 +129,7 @@
         text-align: justify;
     }
 
-    .full-img img{
+    .full-img img {
         width: 90%;
     }
 }
