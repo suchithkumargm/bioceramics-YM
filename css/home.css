@@ -56,8 +56,9 @@
 
 
 @media screen and (max-width: 620px) {
-    #home h1 img{
-        display: none;
+    #home .left-container img {
+        top: -1%;
+        right: 0%;
     }
 
     #home .content {
