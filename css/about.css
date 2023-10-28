@@ -8,9 +8,12 @@
 .story-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* align-items: center;
-    justify-content: space-around; */
+    align-items: center;
     padding: 2rem;
+}
+
+.story-container img{
+    margin: auto;
 }
 
 .story-container p {
