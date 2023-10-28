@@ -1,18 +1,21 @@
 .contact-container {
-    margin-left: 1rem;
-    padding-bottom:2rem ;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .left-contact-items {
     display: flex;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding: 1rem;
 }
 
 .left-contact-items p {
-    margin: auto 3rem;
     font-family: 'Inter', Roboto;
     font-size: 1rem;
     font-style: normal;
@@ -23,6 +26,7 @@
 .left-contact img {
     width: 2rem;
     height: 2rem;
+    padding-right: 2rem;
 }
 
 iframe {

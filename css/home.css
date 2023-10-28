@@ -1,12 +1,12 @@
 #home .content {
-    margin: 5rem 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #home .left-container {
+    padding-top: 3rem;
     position: relative;
-    flex-basis: 50%;
-    margin: auto 10rem;
     font-family: 'Inter', Roboto;
     line-height: normal;
 }
@@ -15,11 +15,11 @@
     width: 6.875rem;
     height: 4rem;
     position: absolute;
-    top: -15%;
+    top: 0%;
 }
 
-#home .right-container {
-    flex-basis: 50%;
+#home .right-container img{
+    width: 90%;
 }
 
 #home .left-container h1 {
@@ -45,13 +45,12 @@
 #home .left-container h4 {
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .buy-now {
     font-size: 1rem;
     font-weight: 600;
-    margin-top: 1rem;
     padding: 0.75rem 1.5rem;
 }
 

@@ -1,11 +1,18 @@
+/* .our-story{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+    gap: 1em;
+} */
+
 .story-container {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    width: fit-content;
 }
 
 .story-container p {
-    margin-left: 5.8rem;
-    margin-right: 1rem;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -13,58 +20,50 @@
     letter-spacing: 1.12px;
 }
 
-.story-1 img {
-    margin-right: 5.18rem;
+.story-1,.story-3 img {
     float: right;
 }
 
 .story-2 img {
-    margin-left: 3rem;
     float: left;
 }
 
 .story-2 p {
-    margin-right: 2rem;
     order: 2;
 }
 
-.story-3 img {
-    margin-right: 5.18rem;
-    float: right;
-}
-
-
 .benifits {
+    width: 90%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    margin:auto 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap: 1.5rem;
+    justify-items:center ;
+    margin-bottom: 2rem;
 }
 
 .benifits .card {
-    width: 18rem;
+    width: 20rem;
     height: 23rem;
-    margin: 0 3rem 3rem;
-    background-color: #D9D9D9;
+    background-color: var(--white-color);
 }
 
 .gallery-cards {
+    width: 90%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 1rem;
-    place-items: center;
-}
-
-.gallery-cards {
-    margin: auto 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
 }
 
 .gallery-cards img{
+    width: 100%;
     transition: transform 0.3s;
 }
 
 .gallery-cards img:hover{
     cursor: pointer;
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 
 @media screen and (max-width: 620px) {

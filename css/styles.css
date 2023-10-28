@@ -4,14 +4,12 @@
     justify-content: space-between;
     z-index: 1000;
     background-color: var(--pink-color);
-    overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100dvw;
 }
 
 .brand {
-    margin-left: 2rem;
     color: var(--black-color);
     font-size: 1.75rem;
     font-style: italic;
@@ -21,13 +19,12 @@
 
 .navigation-items {
     display: flex;
-    margin-right: 2rem;
+    padding-right: 1rem;
 }
 
 .navigation-items li {
     list-style: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding: 0 2rem;
     cursor: pointer;
 
     color: var(--black-color);
