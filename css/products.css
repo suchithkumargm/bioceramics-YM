@@ -30,6 +30,11 @@
   margin: auto;
 }
 
+img.product-2{
+  min-width: 0;
+  width: 5rem;
+}
+
 .card-content {
   font-size: 1rem;
   padding: 1rem 0;
