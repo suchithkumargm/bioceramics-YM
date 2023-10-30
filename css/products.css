@@ -38,8 +38,6 @@
   align-items: center;
 }
 
-/* #products .content .card-content h1, */
-/* p { */
   #products > div > div > div> div > p,h1{
   margin-bottom: 1.3rem;
 }

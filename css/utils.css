@@ -9,10 +9,10 @@ body {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: linear-gradient(to right, #D5DDD6 , #b0d7b4);
 }
 
 :root {
+    --pink-color: #FBF6E9;
     --background-color:#D5DDD6;
     --black-color: #000000;
     --white-color: #FFFFFF;
@@ -24,7 +24,7 @@ a {
 }
 
 .content {
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .buy-now {

@@ -1,12 +1,18 @@
+#home{
+    background-image: linear-gradient(to right, #D5DDD6 , #b0d7b4);
+}
+
 #home .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    height: 90vh;
 }
 
 #home .left-container {
     font-family: 'Inter', Roboto;
     line-height: normal;
+    margin: auto;
 }
 
 #home .left-container h2,
@@ -39,7 +45,7 @@
 }
 
 .right-container img{
-    width: 70%;
+    width: 90%;
 }
 
 @media screen and (max-width: 800px) {
