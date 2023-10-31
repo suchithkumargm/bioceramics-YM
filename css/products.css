@@ -16,6 +16,8 @@
   background-color: var(--white-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
+  text-align: center;
+  font-family: Times New Roman;
 }
 
 .card:hover {
